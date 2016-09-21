@@ -25,9 +25,19 @@ namespace Lab13_NDV
             sheep1.SheepsName("Blackie");
             Countutil.count(sheep1, 2);
 
+            Console.WriteLine();
+
+
             Sheep sheep2 = (Sheep) sheep1.Clone();
             sheep2.resetCount();
             sheep2.SheepsName("Dolly");
+            Countutil.count(sheep2, 3);
+
+
+            Console.WriteLine();
+
+            sheep1.resetCount();
+            sheep1.SheepsName("Blankie");
             Countutil.count(sheep1, 1);
 
 
