@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace Lab13_NDV
 {
-    class Program
+    public interface Countable
     {
-        static void Main(string[] args)
-        {
-        }
+        void incementCount();
+        void resetCount();
+        int getCount();
+        String getCountString();
     }
 }
